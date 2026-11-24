@@ -56,6 +56,7 @@ The following keyd key names are useful for media buttons and other special
 hardware controls. Use them in Key(...).
 
 This is not a complete list.
+
     mute             volumedown       volumeup         micmute
     playpause        nextsong         previoussong     rewind
     fastforward      playcd           pausecd          stopcd
