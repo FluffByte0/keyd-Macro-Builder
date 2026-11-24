@@ -29,7 +29,6 @@ Step: TypeAlias = Text | Delay | Key
 # - Modifiers: C = Ctrl, M = Windows/Meta/Super, A = Alt, S = Shift, G = AltGr.
 # - Use hyphens for modifier chords: Key("C-M-r") sends Ctrl+Windows+R.
 # - Use plus signs for ordinary keys pressed together: Key("a+b").
-# - Replace X in examples such as "C-S-X" with a valid key name, e.g. "C-S-esc".
 # - To tap only the Windows key, use "leftmeta" or "rightmeta".
 # - Common key names include enter, tab, esc, space, left, right, up, down, f1-f12 and a-z.
 # - You can also add hardware-control keys, some examples (not all) are in README.txt.
