@@ -1,6 +1,6 @@
 keyd Macro Builder
 ==================
-
+## This only works on Linux with the keyd manager installed.
 This folder contains a small Python generator for keyd macros. Edit
 keyd_macro_builder.py, then run it to generate keyd-typing.conf. Do not edit
 keyd-typing.conf by hand: it is overwritten every time the builder runs.
