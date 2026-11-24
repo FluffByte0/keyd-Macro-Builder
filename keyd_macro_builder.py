@@ -32,7 +32,6 @@ Step: TypeAlias = Text | Delay | Key
 # - To tap only the Windows key, use "leftmeta" or "rightmeta".
 # - Common key names include enter, tab, esc, space, left, right, up, down, f1-f12 and a-z.
 # - You can also add hardware-control keys, some examples (not all) are in README.txt.
-# - Modifier keys should be capitalized while non-modifier keys should be lowercase.
 
 # Add, remove, or edit automations here. Valid numpad names include kp0-kp9, kpplus, kpminus, kpasterisk, kpslash, kpenter, and kpdot. Or bind any other key.
 AUTOMATIONS: dict[str, list[Step]] = {
