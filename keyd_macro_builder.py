@@ -23,7 +23,7 @@ class Key:
     value: str
 
 Step: TypeAlias = Text | Delay | Key
-# Example; "<key>": [Text(""), Delay(), Key("")],
+# Example; "<key>": [Text(""), Delay(), Key("")], - (Can be moved)
 
 # Keyd key reference:
 # - Modifiers: C = Ctrl, M = Windows/Meta/Super, A = Alt, S = Shift, G = AltGr.
@@ -35,7 +35,7 @@ Step: TypeAlias = Text | Delay | Key
 
 # Add, remove, or edit automations here. Valid numpad names include kp0-kp9, kpplus, kpminus, kpasterisk, kpslash, kpenter, and kpdot. Or bind any other key.
 AUTOMATIONS: dict[str, list[Step]] = {
-    # Key:
+    # key
     "<key>": [Text(""), Delay(), Key("")],
 }
 
