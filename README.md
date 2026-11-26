@@ -71,7 +71,9 @@ This is not a complete list.
 
 Some names are only meaningful when the operating system or active application
 handles the corresponding hardware/media event. To see the authoritative list
-for the installed keyd version, run: keyd list-keys
+for the installed keyd version, run:
+
+    keyd list-keys
 
 Generate and install
 --------------------
